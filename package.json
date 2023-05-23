@@ -1,0 +1,24 @@
+{
+  "name": "tesalan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "apollo-server": "^3.12.0",
+    "class-validator": "^0.14.0",
+    "graphql": "^16.6.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.1.6",
+    "ts-node": "^10.9.1",
+    "type-graphql": "^2.0.0-beta.2",
+    "typeorm": "^0.3.16"
+  }
+}
