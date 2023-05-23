@@ -1,12 +1,10 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm";
 import { ObjectType, Field, ID, InputType } from "type-graphql";
 import { Length, IsIn } from "class-validator";
+
 @ObjectType()
 @Entity()
 export class Pays {
-  save() {
-      throw new Error("Method not implemented.");
-  }
   @Field(() => ID)
   @PrimaryGeneratedColumn()
   id: number;
@@ -18,6 +16,7 @@ export class Pays {
   @Field()
   @Column()
   code: string;
+  
 
   @Field()
   @Column()
